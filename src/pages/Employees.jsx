@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 
-import Sidebar from "../components/Sidebar.jsx";
-import DashboardHeader from "../components/DashboardHeader.jsx";
-import EmployeeStats from "../components/EmployeeStats.jsx";
-import EmployeeTable from "../components/EmployeeTable.jsx";
-import EmployeeForm from "../components/EmployeeForm.jsx";
+import Sidebar from "../Components/Sidebar.jsx";
+import DashboardHeader from "../Components/DashboardHeader.jsx";
+import EmployeeStats from "../Components/EmployeeStats.jsx";
+import EmployeeTable from "../Components/EmployeeTable.jsx";
+import EmployeeForm from "../Components/EmployeeForm.jsx";
 
 import { initialEmployees } from "../data/employees.js";
 import {
